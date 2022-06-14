@@ -11,7 +11,7 @@
             <h1 class="h2 text-center">{{ $travel->title }}</h1>
         </div>
         <div class="confirm-sub-title mb-5">
-            <h1 class="h4 text-center">{{ $travel->sub_title }}</h1>
+            <h1 class="h5 text-center mt-2">{{ $travel->sub_title }}</h1>
         </div>
         <div class="">
             <h2 class="h4 mb-4">旅先： {{ $travel->location_name }}</h2>

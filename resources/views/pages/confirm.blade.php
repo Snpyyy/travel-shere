@@ -6,7 +6,7 @@
 <div class="container mb-5">
     <div class="row">
         <div class="confirm-title">
-            <h1 class="h2 text-center">{{ $guideTitle }}</h1>
+            <h1 class="h5 text-center mt-2">{{ $guideTitle }}</h1>
         </div>
         <div class="confirm-sub-title mb-5">
             <h1 class="h4 text-center">{{ $guideSubTitle }}</h1>
