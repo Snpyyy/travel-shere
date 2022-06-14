@@ -6,7 +6,7 @@
 <div class="container mb-5">
     <div class="row">
         <div class="confirm-title">
-            <h1 class="h2 text-center">{{ $guideTitle }}</h1>
+            <h1 class="h5 text-center mt-2">{{ $guideTitle }}</h1>
         </div>
         <div class="confirm-sub-title mb-5">
             <h1 class="h4 text-center">{{ $guideSubTitle }}</h1>
@@ -29,7 +29,7 @@
                         <h2 class="h4">{{ $day }}日目( {{$dates[$day - 1]}} )</h2>
                     </div>
                     @foreach($bodies as $body)
-                        <div class="d-flex w-100 mb-5">
+                        <div class="d-flex w-100 mb-5 bg-light py-2">
                             <span class="destination me-3">
                                 @switch($body['destination'])
                                     @case("")
